@@ -1,4 +1,4 @@
-const nodemailer =require("nodemailer")
+/*const nodemailer =require("nodemailer")
 
 
 exports.sendEmail =(req,res)=>{
@@ -35,4 +35,4 @@ exports.sendEmail =(req,res)=>{
         }catch(error){
         
         }
-}
+}*/
