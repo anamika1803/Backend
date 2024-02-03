@@ -3,7 +3,7 @@ const User = require("../models/user"); // Assuming your model is named 'user'
 const jwt = require("jsonwebtoken");
 
 
-var bcrypt = require("bcryptjs"); 
+const bcrypt = require('bcryptjs');
 
 exports.register = async (req, res,next) => {     // async ka mtlb asynchronous koi b code block na ho jo code tym le rha h vo chlta rhe backend m jb tk uska kaam khtam na ho jata
    const { name, PhoneNo, email, password } = req.body;  
