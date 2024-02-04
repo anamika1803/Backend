@@ -1,5 +1,6 @@
-const nodemailer =require("nodemailer")
 
+
+const nodemailer = require("nodemailer");
 
 exports.sendEmail =(req,res)=>{
         try{
@@ -9,8 +10,8 @@ exports.sendEmail =(req,res)=>{
                 host:"smtp.gmail.com",
                 port:465,
                 auth:{
-                    user:"abasu8595@gmail.com",
-                    password :"czdl ovad jhoq jlyc" //jo generate hoga google svo dalna h
+                    user:"",
+                    password :"" //jo generate hoga google svo dalna h
 
                 }
             })
